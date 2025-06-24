@@ -1,0 +1,22 @@
+[
+  { "id": "bbc-news", "name": "BBC News", "x": -0.2, "y": 0.1 },
+  { "id": "cnn", "name": "CNN", "x": -0.5, "y": 0.3 },
+  { "id": "fox-news", "name": "Fox News", "x": 0.7, "y": -0.2 },
+  { "id": "reuters", "name": "Reuters", "x": 0.1, "y": 0.4 },
+  { "id": "associated-press", "name": "Associated Press", "x": 0.0, "y": 0.2 },
+  { "id": "the-wall-street-journal", "name": "The Wall Street Journal", "x": 0.5, "y": 0.6 },
+  { "id": "usa-today", "name": "USA Today", "x": 0.0, "y": 0.0 },
+  { "id": "abc-news", "name": "ABC News", "x": -0.2, "y": 0.1 },
+  { "id": "nbc-news", "name": "NBC News", "x": -0.3, "y": 0.2 },
+  { "id": "cbs-news", "name": "CBS News", "x": -0.2, "y": 0.1 },
+  { "id": "bloomberg", "name": "Bloomberg", "x": 0.3, "y": 0.5 },
+  { "id": "business-insider", "name": "Business Insider", "x": 0.1, "y": 0.3 },
+  { "id": "techcrunch", "name": "TechCrunch", "x": 0.2, "y": 0.6 },
+  { "id": "ars-technica", "name": "Ars Technica", "x": 0.0, "y": 0.7 },
+  { "id": "the-verge", "name": "The Verge", "x": 0.1, "y": 0.5 },
+  { "id": "engadget", "name": "Engadget", "x": 0.0, "y": 0.4 },
+  { "id": "wired", "name": "Wired", "x": 0.0, "y": 0.6 },
+  { "id": "politico", "name": "Politico", "x": -0.1, "y": 0.3 },
+  { "id": "the-hill", "name": "The Hill", "x": 0.0, "y": 0.1 },
+  { "id": "axios", "name": "Axios", "x": 0.1, "y": 0.2 }
+]
