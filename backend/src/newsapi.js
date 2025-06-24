@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Временно хардкодим ключ для тестирования
-const NEWSAPI_KEY = process.env.NEWSAPI_KEY || '3e2ce6956e1c4a44bbe2097dda9c4d53';
+// API ключ берём из переменной окружения
+const NEWSAPI_KEY = process.env.NEWSAPI_KEY;
 const NEWSAPI_URL = 'https://newsapi.org/v2/top-headlines';
 
 console.log('NewsAPI Key loaded:', !!NEWSAPI_KEY, 'Length:', NEWSAPI_KEY?.length);
