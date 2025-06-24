@@ -4,8 +4,9 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "node -r dotenv/config src/index.js dotenv_config_path=./.env",
+    "dev-debug": "node -r dotenv/config src/debug.js dotenv_config_path=./.env",
+    "start": "node src/index.js"
   },
   "dependencies": {
     "express": "^4.19.2",

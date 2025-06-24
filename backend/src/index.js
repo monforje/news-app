@@ -1,14 +1,20 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { pickSources } from './feed.js';
 import { getArticlesBySources } from './newsapi.js';
 import { getCache, setCache } from './cache.js';
 import { parseArticle } from './article.js';
 import { saveReaction } from './db.js';
 
-// Загружаем переменные окружения в начале
-dotenv.config();
+// Получаем __dirname для ES модулей
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Загружаем переменные окружения из корневой папки проекта
+dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 // Отладочная информация для проверки загрузки .env
 console.log('Environment variables status:');
