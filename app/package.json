@@ -20,5 +20,10 @@
     "react-native-screens": "^4.0.0",
     "react-native-safe-area-context": "5.4.0",
     "react-native-gesture-handler": "~2.24.0"
+  },
+  "overrides": {
+    "chromium-edge-launcher": "^0.3.0",
+    "glob": "^10.4.5",
+    "rimraf": "^5.0.5"
   }
 }
