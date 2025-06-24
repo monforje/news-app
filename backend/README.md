@@ -9,6 +9,10 @@ npm install
 npm run dev
 ```
 
+Перед стартом создайте файл `.env` в корне репозитория или скопируйте
+`.env.example` и укажите значения `PORT`, `REDIS_URL`, `PG_CONNECTION_STRING` и
+`NEWSAPI_KEY`.
+
 ## Основные эндпоинты
 - `GET /feed?x&y&client_ts` — получить 4 карточки новостей
 - `GET /article?url` — получить HTML статьи
